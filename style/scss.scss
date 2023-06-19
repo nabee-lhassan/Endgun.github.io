@@ -432,6 +432,11 @@ section.Harmony_section {
             color: #ffffff;
 
         }
+
+        a{
+            text-decoration: underline;
+            color: white;
+        }
     }
     
     .col-lg-5.col-md-6.col-sm-12.harmony_position{
@@ -481,12 +486,17 @@ section.our_mission {
             p{
 
             }
+
+            a{
+                color: black;
+                text-decoration: underline;
+            }
             
         }
         .play_button_2 {
+            
             position: absolute;
-            position: absolute;
-            bottom: 38px;
+            bottom: 0%;
             left: -48px;
 
             a{

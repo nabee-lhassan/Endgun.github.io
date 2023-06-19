@@ -343,6 +343,10 @@ section.Harmony_section .harmony_content p {
   text-align: left;
   color: #ffffff;
 }
+section.Harmony_section .harmony_content a {
+  text-decoration: underline;
+  color: white;
+}
 section.Harmony_section .col-lg-5.col-md-6.col-sm-12.harmony_position {
   position: relative;
 }
@@ -379,10 +383,13 @@ section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_c
   font-size: 48px;
   font-weight: 400;
 }
+section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_content a {
+  color: black;
+  text-decoration: underline;
+}
 section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .play_button_2 {
   position: absolute;
-  position: absolute;
-  bottom: 38px;
+  bottom: 0%;
   left: -48px;
 }
 section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .play_button_2 a {
