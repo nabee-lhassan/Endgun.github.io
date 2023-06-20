@@ -149,18 +149,18 @@ audio_player.currentTime = ((e.offsetX/div_progressbar_main.offsetWidth)* audio_
 
   var listAudio = [
     {
-      name:"Artist 1 - audio 1",
-      file:"https://printing-new-mock.sofzoo.com/wp-content/uploads/2023/06/summer-walk-152722.mp3",
+      name:"Tyrone Stephney - Find God",
+      file:"https://codelabs.live/new/Find%20GOD.mp3",
       duration:"08:47"
     },
     {
-      name:"Artist 2 - audio 2",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      name:"Tyrone Stephney - Heaven",
+      file:"https://codelabs.live/new/Heaven.mp3",
       duration:"05:53"
     },
     {
-      name:"Artist 3 - audio 3",
-      file:"https://polodesignworks.com/Find%20GOD.mp3",
+      name:"Tyrone Stephney - Freedom3",
+      file:"https://codelabs.live/new/freedom3(1).mp3",
       duration:"00:27"
     }
   ]

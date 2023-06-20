@@ -70,6 +70,9 @@ header nav.navbar.navbar-expand-lg.bg-light a.navbar-brand img {
   text-align: center;
   position: relative;
 }
+.hero-sec .banner-new-album-sec img {
+  width: 100%;
+}
 .hero-sec .banner-new-album-sec h2 {
   font-family: Rozha One;
   font-size: 31px;
@@ -198,62 +201,62 @@ section.player-ctn-section {
 section.player-ctn-section .player-ctn-image img {
   width: 100%;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 {
+section.player-ctn-section .player_coloum {
   position: relative;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .player-ctn-men {
+section.player-ctn-section .player_coloum .player-ctn-men {
   position: absolute;
   left: -40%;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 #myProgress {
+section.player-ctn-section .player_coloum #myProgress {
   width: 420px;
   background-color: #d9d9f2;
   cursor: pointer;
   border-radius: 10px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 #myBar {
+section.player-ctn-section .player_coloum #myBar {
   width: 0%;
   height: 5px;
   background-color: #000000;
   border-radius: 10px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .logo {
+section.player-ctn-section .player_coloum .logo {
   fill: red;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .btn-action {
+section.player-ctn-section .player_coloum .btn-action {
   cursor: pointer;
   padding-top: 10px;
   width: 30px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .btn-ctn, section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .infos-ctn {
+section.player-ctn-section .player_coloum .btn-ctn, section.player-ctn-section .player_coloum .infos-ctn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .infos-ctn {
+section.player-ctn-section .player_coloum .infos-ctn {
   padding-top: 20px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .btn-ctn > div {
+section.player-ctn-section .player_coloum .btn-ctn > div {
   padding: 5px;
   margin-top: 18px;
   margin-bottom: 18px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .infos-ctn > div {
+section.player-ctn-section .player_coloum .infos-ctn > div {
   margin-bottom: 8px;
   color: #000000;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .first-btn {
+section.player-ctn-section .player_coloum .first-btn {
   margin-left: 3px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .duration {
+section.player-ctn-section .player_coloum .duration {
   margin-left: 10px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .title {
+section.player-ctn-section .player_coloum .title {
   margin-left: 10px;
   width: 210px;
   text-align: center;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .player-ctn {
+section.player-ctn-section .player_coloum .player-ctn {
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
@@ -261,56 +264,56 @@ section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .player-ct
   margin: auto;
   margin-top: 200px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 h2 {
+section.player-ctn-section .player_coloum h2 {
   font-family: Rozha One;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
   margin-top: 25px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-track-ctn {
+section.player-ctn-section .player_coloum .playlist-track-ctn {
   display: flex;
   margin-top: 3px;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-track-ctn::before {
+section.player-ctn-section .player_coloum .playlist-track-ctn::before {
   position: absolute;
   content: "";
   width: 100%;
   height: 1px;
   background-color: #000000;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-track-ctn:last-child {
+section.player-ctn-section .player_coloum .playlist-track-ctn:last-child {
   /*border: 1px solid #000000; */
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-track-ctn > div {
+section.player-ctn-section .player_coloum .playlist-track-ctn > div {
   margin: 10px;
   color: #000;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-info-track {
+section.player-ctn-section .player_coloum .playlist-info-track {
   width: 80%;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-info-track, section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-duration {
+section.player-ctn-section .player_coloum .playlist-info-track, section.player-ctn-section .player_coloum .playlist-duration {
   padding-top: 7px;
   padding-bottom: 7px;
   color: #e9cc95;
   font-size: 14px;
   pointer-events: none;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-ctn {
+section.player-ctn-section .player_coloum .playlist-ctn {
   padding-bottom: 20px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .active-track > .playlist-info-track, section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .active-track > .playlist-duration, section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .active-track > .playlist-btn-play {
+section.player-ctn-section .player_coloum .active-track > .playlist-info-track, section.player-ctn-section .player_coloum .active-track > .playlist-duration, section.player-ctn-section .player_coloum .active-track > .playlist-btn-play {
   color: #000000 !important;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .playlist-btn-play {
+section.player-ctn-section .player_coloum .playlist-btn-play {
   pointer-events: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-section.player-ctn-section .col-lg-4.player_coloum.col-md-6.col-sm-12 .fas {
+section.player-ctn-section .player_coloum .fas {
   color: #000000;
   font-size: 20px;
 }
@@ -354,6 +357,9 @@ section.Harmony_section .col-lg-5.col-md-6.col-sm-12.harmony_position .harmony_i
   position: absolute;
   left: -20%;
 }
+section.Harmony_section .col-lg-5.col-md-6.col-sm-12.harmony_position .harmony_image img {
+  width: 100%;
+}
 
 section.our_mission .container {
   border-top: 1px solid #828282;
@@ -363,36 +369,36 @@ section.our_mission .container {
 section.our_mission .our_missiion_image img {
   width: 100%;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position {
+section.our_mission .mission_position {
   position: relative;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_content {
+section.our_mission .mission_position .our_mission_content {
   background: #F2F2F2;
   padding: 30px;
   position: absolute;
   left: -70%;
   top: 8%;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_content h2 {
+section.our_mission .mission_position .our_mission_content h2 {
   font-family: Rozha One;
   font-size: 16px;
   font-weight: 400;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_content h3 {
+section.our_mission .mission_position .our_mission_content h3 {
   font-family: Rozha One;
   font-size: 48px;
   font-weight: 400;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .our_mission_content a {
+section.our_mission .mission_position .our_mission_content a {
   color: black;
   text-decoration: underline;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .play_button_2 {
+section.our_mission .mission_position .play_button_2 {
   position: absolute;
   bottom: 0%;
   left: -48px;
 }
-section.our_mission .col-lg-3.col-md-6.col-sm-12.mission_position .play_button_2 a {
+section.our_mission .mission_position .play_button_2 a {
   font-size: 15px;
   font-weight: 900;
   color: #ffffff;
@@ -553,8 +559,10 @@ footer .music_studio_info .social_media li {
   border: 1px solid #DEDEDE;
   padding: 15px 20px;
   margin-right: 5px;
-  width: 60px;
+  display: flex;
+  justify-content: center;
   height: 60px;
+  align-items: center;
 }
 footer .music_studio_info .social_media li a {
   width: 100%;
@@ -779,4 +787,107 @@ footer .music_studio_info .social_media li a {
   padding: 5% 4%;
   line-height: 37px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 1280px) {
+  .our_mission .mission_position .our_mission_content h3 {
+    font-size: 30px;
+  }
+  .Harmony_section .harmony_content h3 {
+    font-size: 30px;
+  }
+  section.our_mission .mission_position .our_mission_content h3 {
+    font-size: 30px;
+  }
+  section.Harmony_section .harmony_content h3 {
+    font-size: 30px;
+  }
+  .hero-sec .hero_tagline h1 {
+    font-size: 45px;
+  }
+  .our_mission .mission_position .play_button_2 a {
+    display: none;
+  }
+  .about .col-lg-6:first-child {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .about .col-lg-6:nth-child(2) {
+    width: 100%;
+  }
+  .sec-contact h6 {
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  section.Harmony_section .harmony_position {
+    display: none;
+  }
+  .play_song .play_image .play_content {
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .player-ctn-section .player_coloum .player-ctn {
+    padding: 0px !important;
+    margin-top: 0% !important;
+  }
+  .player-ctn-section .player_coloum .player-ctn-men {
+    position: unset !important;
+  }
+  .our_mission .mission_position .our_mission_content {
+    position: unset !important;
+  }
+  section.our_mission .mission_position .play_button_2 {
+    position: unset;
+    display: flex;
+    justify-content: center;
+    margin: 4% 0%;
+  }
+  .sec-Music .div-music-player-page {
+    flex-direction: column;
+    margin: 7% 2%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .hero-sec .hero_tagline {
+    display: none;
+  }
+  .hero-sec .banner-new-album-sec .play_button {
+    left: 28%;
+  }
+  .play_song .play_image {
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+  }
+  section.slide marquee {
+    font-size: 30px;
+  }
+  .play_song .play_image .play_content {
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .player-ctn-section .player_coloum .player-ctn {
+    width: unset !important;
+    padding: 5% 5% !important;
+    margin-top: 0% !important;
+    font-size: 11px;
+  }
+  section.player-ctn-section .player_coloum .playlist-track-ctn > div {
+    font-size: 12px;
+  }
+  .player-ctn-section .player_coloum .player-ctn-men {
+    position: unset !important;
+  }
+  section.Harmony_section .harmony_content h3 {
+    font-size: 30px;
+  }
+  .player-ctn-section .player_coloum #myProgress {
+    width: 100% !important;
+  }
+  .our_mission .mission_position .our_mission_content h3 {
+    font-size: 30px !important;
+  }
 }/*# sourceMappingURL=scss.css.map */
