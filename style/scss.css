@@ -285,9 +285,6 @@ section.player-ctn-section .player_coloum .playlist-track-ctn::before {
   height: 1px;
   background-color: #000000;
 }
-section.player-ctn-section .player_coloum .playlist-track-ctn:last-child {
-  /*border: 1px solid #000000; */
-}
 section.player-ctn-section .player_coloum .playlist-track-ctn > div {
   margin: 10px;
   color: #000;

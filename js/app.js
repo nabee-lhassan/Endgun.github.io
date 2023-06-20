@@ -154,13 +154,13 @@ audio_player.currentTime = ((e.offsetX/div_progressbar_main.offsetWidth)* audio_
       duration:"08:47"
     },
     {
-      name:"Tyrone Stephney - Heaven",
-      file:"https://codelabs.live/new/Heaven.mp3",
+      name:"Tyrone Stephney - I'M  I N  L U V",
+      file:"https://codelabs.live/new/I'M%20%20I%20N%20%20L%20U%20V.mp3",
       duration:"05:53"
     },
     {
       name:"Tyrone Stephney - Freedom3",
-      file:"https://codelabs.live/new/freedom3(1).mp3",
+      file:"https://codelabs.live/new/freedom3%20(1).mp3",
       duration:"00:27"
     }
   ]
